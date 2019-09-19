@@ -11,3 +11,10 @@ i {
   border-color: #8bc9d9;
   border-width: 2px;
 }
+
+.btn-ghost:hover {
+  color: #005e76;
+  background-color: #8bc9d9;
+  border-color: #0084a;
+  border-width: 2px;
+}
