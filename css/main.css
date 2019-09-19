@@ -7,7 +7,7 @@ i {
 }
 
 .btn-ghost {
-  color:#005e76;
+  color: #005e76;
   border-color: #8bc9d9;
   border-width: 2px;
 }
@@ -40,6 +40,7 @@ footer {
 }
 
 @media only screen and (min-width: 60em) {
+
   .right {
     text-align: right;
   }
@@ -47,4 +48,5 @@ footer {
   .left {
     text-align: left;
   }
+
 }
