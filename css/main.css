@@ -5,3 +5,9 @@ html {
 i {
     font-family: "Noto Sans Japanese", sans-serif;
 }
+
+.btn-ghost {
+  color:#005e76;
+  border-color: #8bc9d9;
+  border-width: 2px;
+}
