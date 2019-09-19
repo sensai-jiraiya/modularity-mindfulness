@@ -15,7 +15,7 @@ i {
 .btn-ghost:hover {
   color: #005e76;
   background-color: #8bc9d9;
-  border-color: #0084a;
+  border-color: #0084a6;
   border-width: 2px;
 }
 
@@ -32,6 +32,11 @@ i {
 
 footer {
   border-top: 2px solid #e2e2e2;
+}
+
+.intro {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 @media only screen and (min-width: 60em) {
