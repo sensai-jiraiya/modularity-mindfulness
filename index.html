@@ -16,14 +16,15 @@
     <li><a href="#nav" aria-label="skip to navigation"></a></li>
     <li><a href="#main" aria-label="skip to main content"></a></li>
   </ul>
-  <header class="xs-1">
-    <div class="grid">
-      <div class="unit xs-1 s-1 m-1 l-1-2">
-        <h1 class="unit xs-1">枯山水<br>Rock Gardens</h1>
+  <header class="xs-1" role="banner">
+    <div class="grid grid-middle">
+      <div class="unit xs-1 s-1 m-1 l-1-2 text-center pad-t-1-2 gutter-1-2 push-1-2">
+        <i lang="ja" class="unit xs-1 not-italic bold left text-center" id="gardens" tabindex="0">枯山水</i>
+        <h1 class="unit xs-1 bold left text-center push-1-4">Rock Gardens</h1>
       </div>
-      <div class="unit xs-1 s-1 m-1 l-1-2">
-        <nav class="unit xs-1">
-          <ul class="unit xs-1">
+      <div class="unit xs-1 s-1 m-1 l-1-2 pad-t push-1-4">
+        <nav role="navigation" id="nav" tabindex="0" class="unit xs-1">
+          <ul class="list-group-inline nav text-center right unit xs-1 push-0">
             <li><a href="#">Viewing</a></li>
             <li><a href="#">Gravel</a></li>
             <li><a href="#">Gravel</a></li>
@@ -31,20 +32,15 @@
         </nav>
       </div>
       <div>
-        <img src="images/banner.svg" alt="">
+        <img src="images/banner.svg" alt="banner image">
       </div>
     </div>
   </header>
-  <main>
-    <div>
+  <main role="main" id="main" tabindex="0">
       <section>
         <div>
-          <div>
-            <p>自然の親密な本質を模倣し、人生の真の意味を発見する。</p>
-          </div>
-          <div>
-            <p>Imitate the intimate essence of nature & discover the true meaning of life.</p>
-          </div>
+            <i class="unit" lang="ja">自然の親密な本質を模倣し、人生の真の意味を発見する。</p>
+            <p class="unit">Imitate the intimate essence of nature & discover the true meaning of life.</p>
         </div>
       </section>
       <article>
@@ -84,7 +80,6 @@
           </section>
         </div>
       </article>
-    </div>
   </main>
   <footer>
     <small>© 794 Heian Period</small>
