@@ -18,3 +18,14 @@ i {
   border-color: #0084a;
   border-width: 2px;
 }
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  color: #005e76;
+  border-bottom: 2px solid #8bc9d9;
+}
+
+.nav a:hover {
+  color: #000;
+}
